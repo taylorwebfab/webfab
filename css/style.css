@@ -1372,7 +1372,6 @@ input.fieldHasError, textarea.fieldHasError {
 	-ms-transition: all 1s ease-out;
 	-o-transition: all 1s ease-out;
 	transition: all 1s ease-out;
-	width: 94%;
-	padding: 3%;
+	width: 90%;
 	max-width: 400px;
 }
