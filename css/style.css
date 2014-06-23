@@ -1364,7 +1364,7 @@ input.fieldHasError, textarea.fieldHasError {
 	vertical-align: middle;
 	text-align: center;
 }
-.site-loader-inner img {
+#loadlogo {
 	display: inline;
 	opacity: 0;
 	-webkit-transition: all 1s ease-out;
@@ -1372,4 +1372,7 @@ input.fieldHasError, textarea.fieldHasError {
 	-ms-transition: all 1s ease-out;
 	-o-transition: all 1s ease-out;
 	transition: all 1s ease-out;
+	width: 94%;
+	padding: 3%;
+	max-width: 400px;
 }
