@@ -19,10 +19,10 @@ body {
 	color: #999;
 }
 p > a {
-	color: #ffdf50;
+	color: #8bc23f;
 }
 a {
-	color: #ffdf50;
+	color: #8bc23f;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
@@ -134,7 +134,7 @@ tr:hover > td {
 	color: #333;
 }
 .buttonDefault {
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 }
 .serviceWrapper {
 	border-color: #333;
@@ -143,7 +143,7 @@ tr:hover > td {
 	color: #333;
 }
 .highlightDefault {
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 }
 .accordionButton {
 	background-color: #333;
@@ -177,7 +177,14 @@ tr:hover > td {
 	padding-right: 24px;
 	z-index: 9990;
 	height: 54px;
-	background-color: #ffdf50;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ededed 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ededed 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#ededed 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#ededed 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
 }
 .mainLogo {
@@ -204,7 +211,7 @@ tr:hover > td {
 	position: absolute;
 	left: 0px;
 	width: 100%;
-	border-bottom: 3px solid #ffdf50;
+	border-bottom: 3px solid #8bc23f;
 }
 .mainMenuWrapper > li {
 	line-height: 36px;
@@ -228,7 +235,7 @@ tr:hover > td {
 .mainMenuWrapper > li:hover > a {
 }
 .mainMenuWrapper > li.currentPage > a {
-	color: #ffdf50;
+	color: #8bc23f;
 	background-position: 0px -36px;
 }
 p.topNotification {
@@ -349,7 +356,7 @@ p.topNotification {
 	cursor: pointer;
 }
 .nivo-controlNav a.active {
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 }
 .nivo-directionNav {
 	position: absolute;
@@ -363,7 +370,7 @@ p.topNotification {
 .nivo-directionNav a {
 	width: 24px;
 	height: 36px;
-	background: #ffdf50 url(../images/common/sliderArrowsBg.png) no-repeat;
+	background: #8bc23f url(../images/common/sliderArrowsBg.png) no-repeat;
 	text-indent: -9999px;
 	position: absolute;
 	top: 0px;
@@ -525,7 +532,7 @@ a.nivo-prevNav:hover {
 	text-decoration: none;
 }
 .portfolioMenuWrapper .currentPortfolioFilter {
-	color: #ffdf50;
+	color: #8bc23f;
 }
 .portfolioOneFilterableWrapper {
 	padding-left: 24px;
@@ -535,7 +542,7 @@ a.nivo-prevNav:hover {
 	margin-bottom: 36px;
 }
 .portfolioOneFilterableWrapper .portfolioFilterableItemImageWrapper {
-	border-bottom: 3px solid #ffdf50;
+	border-bottom: 3px solid #8bc23f;
 }
 .portfolioOneFilterableWrapper .portfolioFilterableItemImageWrapper img {
 	width: 100%;
@@ -649,7 +656,7 @@ a.nivo-prevNav:hover {
 	margin-bottom: 36px;
 }
 .portfolioOneItemImageWrapper {
-	border-bottom: 3px solid #ffdf50;
+	border-bottom: 3px solid #8bc23f;
 }
 .portfolioOneItemImageWrapper:hover {
 }
@@ -813,7 +820,7 @@ a.nivo-prevNav:hover {
 	margin-bottom: 36px;
 }
 .postThumbnailWrapper {
-	border-bottom: 3px solid #ffdf50;
+	border-bottom: 3px solid #8bc23f;
 }
 .postThumbnailWrapper img {
 	width: 100%;
@@ -997,7 +1004,7 @@ a.commentAvatar:hover {
 input.commentSubmitButton {
 	height: 36px;
 	line-height: 36px;
-	background-color: #FFDF50;
+	background-color: #8bc23f;
 	padding-left: 12px;
 	padding-right: 12px;
 	float: right;
@@ -1007,7 +1014,7 @@ input.commentSubmitButton {
 input.commentSubmitButton:hover {
 	height: 36px;
 	line-height: 36px;
-	background-color: #FFDF50;
+	background-color: #8bc23f;
 	padding-left: 12px;
 	padding-right: 12px;
 	float: right;
@@ -1044,7 +1051,7 @@ input.errorSearchFormSubmitButton {
 	height: 36px;
 	line-height: 36px;
 	background-image: none;
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 	padding-left: 12px;
 	border: none;
 	color: #333;
@@ -1053,7 +1060,7 @@ input#errorSearchFormField:focus {
 	background-color: #262626;
 }
 input.errorSearchFormSubmitButton:hover {
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 	color: #333;
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -1065,7 +1072,26 @@ input.errorSearchFormSubmitButton:hover {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////// Contact Page CSS Rules End                                                                         */
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.contact-icons {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.contact-icons img {
+	display: inline;
+	margin-bottom: 5px;
+}
 .contactPageWrapper {
+}
+.contactWrapper {
+	margin-left: 24px;
+	margin-right: 24px;
+	padding-left: 12px;
+	padding-right: 12px;
+	background-color: #262626;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	margin-bottom: 36px;
 }
 .contactFormWrapper {
 	margin-left: 24px;
@@ -1118,7 +1144,7 @@ input.errorSearchFormSubmitButton:hover {
 input.contactSubmitButton, input.contactSubmitButton:hover {
 	height: 36px;
 	line-height: 36px;
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 	padding-left: 12px;
 	padding-right: 12px;
 	float: right;
@@ -1225,12 +1251,12 @@ input.fieldHasError, textarea.fieldHasError {
 	background-color: #393939;
 }
 .currentPageNumber {
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 	color: #333;
 	font-weight: bold;
 }
 .currentPageNumber:hover {
-	background-color: #ffdf50;
+	background-color: #8bc23f;
 	color: #333;
 }
 .postLinksWrapper {
@@ -1282,7 +1308,7 @@ input.fieldHasError, textarea.fieldHasError {
 	border-top: 3px solid #232323;
 }
 .footerWrapper a {
-	color: #ffdf50;
+	color: #8bc23f;
 }
 .copyrightWrapper {
 	height: 54px;
