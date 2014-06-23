@@ -53,18 +53,20 @@ window.onload=function() {
 	setTimeout(
 		function() {
 			document.getElementById("loadlogo").style.opacity="1";
-		}, 
+			setTimeout(
+			function() {
+				document.getElementById("loadlogo").style.opacity="0";
+				setTimeout(
+				function() {
+					window.location= 'home.html';
+				}, 
+			1000);
+			}, 
+		2000);
+		},
 	1500);
-	setTimeout(
-		function() {
-			document.getElementById("loadlogo").style.opacity="0";
-		}, 
-	3500);
-	setTimeout(
-		function() {
-			window.location= 'home.html';
-		}, 
-	4700);
+	
+	
 }
 </script>
 </body>
