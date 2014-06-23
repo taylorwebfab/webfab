@@ -50,7 +50,21 @@ body {
 </div>
 <script>
 window.onload=function() {
-	window.location= 'load.html';
+	setTimeout(
+		function() {
+			document.getElementById("loadlogo").style.opacity="1";
+		}, 
+	1500);
+	setTimeout(
+		function() {
+			document.getElementById("loadlogo").style.opacity="0";
+		}, 
+	3500);
+	setTimeout(
+		function() {
+			window.location= 'home.html';
+		}, 
+	4700);
 }
 </script>
 </body>
