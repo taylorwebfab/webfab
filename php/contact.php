@@ -12,7 +12,7 @@
 	// variables end
 	
 	// email address starts
-	$emailAddress = 'mail@example.com';
+	$emailAddress = 'taylor@webfab.co';
 	// email address ends
 	
 	$subject = "Message From: $name";	

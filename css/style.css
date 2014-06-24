@@ -177,7 +177,7 @@ tr:hover > td {
 	padding-right: 24px;
 	z-index: 9990;
 	height: 54px;
-	background: #ffffff;
+	background: url(../images/common/header-bg.png);
 	background: -moz-linear-gradient(top,  #ffffff 0%, #ededed 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ededed));
 	background: -webkit-linear-gradient(top,  #ffffff 0%,#ededed 100%);
