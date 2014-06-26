@@ -192,8 +192,9 @@ tr:hover > td {
 	height: 54px;
 }
 .mainLogo > img {
-	height: 54px;
+	height: 46px;
 	width: auto;
+	padding-top: 4px;
 }
 .mainMenuButton {
 	float: right;
