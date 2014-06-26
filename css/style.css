@@ -1376,3 +1376,23 @@ input.fieldHasError, textarea.fieldHasError {
 	width: 90%;
 	max-width: 400px;
 }
+.portfolioTwoFilterableWrapper .portfolioFilterableItemWrapper {
+	float: left;
+	margin-right: 4% !important;
+	width: 48% !important;
+	margin-bottom: 4% !important;
+}
+.portfolioTwoFilterableWrapper .portfolioFilterableItemWrapper:nth-child(even) {
+	margin-right: 0 !important;
+}
+.portfolioFilterableItemImageWrapper {
+	border: none !important;
+}
+
+.portfolioFilterableItemsWrapper {
+	width: auto !important;
+}
+.portfolioTwoFilterableWrapper {
+	margin-left: 24px;
+	margin-right: 24px;
+}
